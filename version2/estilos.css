@@ -1,0 +1,73 @@
+* {
+text-transform: uppercase;
+text-align:center !important;
+}
+
+body{
+	background-color: #ffeb90;
+	margin: 10px;
+}
+
+a, td, div, span, h2, h3, li, p, dd, dt{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+a:hover{
+	cursor: pointer;
+	color: #FFCC00;
+}
+
+.header button{
+	text-transform: uppercase;
+	width: 200px;
+	padding: 10px;
+	font-family: 'Montserrat', cursive;
+	font-weight: normal;
+	font-size: 15px;
+	background-color: #a48701;
+}	
+.header button:hover{
+	background: #847908;
+	cursor: pointer;
+	color: #FFCC00;
+	font-weight: bold;
+}
+.header > tbody > tr:nth-child(2) > td {
+	width: 200px;
+	background: #CCCCCC;
+	border: 1px solid #333333;
+	width: 200px;
+	text-align: center;
+}
+h1{
+	font-family: 'Montserrat';
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align:center;
+}
+h2,h3,h4{
+	font-weight: bold;
+	text-align:center;
+}
+
+.footer	td {	text-align: center; valign: middle; font-size: 14px; }
+
+
+form input[type=text], form textarea {
+	width: 700px;
+	background: #cccccc;
+}
+
+table{
+	width: 100% !important;
+}
+.header td { background: none !important; border: 0px !important; }
+
+li  { text-align: center; }
+
