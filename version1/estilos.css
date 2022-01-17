@@ -1,0 +1,55 @@
+body{
+	background-color: #EFEFEF;
+	margin: 10px;
+}
+
+a, td, div, span, h2, h3, li, p, dd, dt{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+a:hover{
+	cursor: pointer;
+	color: #FFCC00;
+}
+
+.header button{
+	text-transform: uppercase;
+	width: 200px;
+	padding: 10px;
+	font-family: 'Lilita One', cursive;
+	font-weight: normal;
+	font-size: 15px;
+	background-color: #248356;
+}	
+.header button:hover{
+	background: #02301a;
+	cursor: pointer;
+	color: #FFCC00;
+}
+.header > tbody > tr:nth-child(2) > td {
+	width: 200px;
+	background: #CCCCCC;
+	border: 1px solid #333333;
+	width: 200px;
+	text-align: center;
+}
+h1{
+	font-family: 'Lilita One';
+	font-weight: normal;
+}
+h2,h3,h4{
+	font-weight: bold;
+}
+
+.footer	td {	text-align: center; valign: middle; font-size: 14px; }
+
+
+form input[type=text], form textarea {
+	width: 700px;
+}
